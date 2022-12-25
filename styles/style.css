@@ -310,9 +310,7 @@
 } */
 
 .footer {
-  border: 1px solid red;
   width: 100%;
-  padding: 60px 0 40px;
   min-height: 350px;
   background-color: #1f1f1f;
   color: white;
@@ -321,7 +319,8 @@
 .footer__columns {
   width: 90%;
   margin: 0 auto;
-  
+  padding: 60px 0 40px;
+  min-height: 250px;
   display: flex;
   justify-content: space-between;
 }
@@ -351,7 +350,7 @@ font-weight: normal;
 }
 
 .footer__column_content_info {
-margin-left: 140px;
+  margin-left: 140px;
 }
 
 .footer__column-heading {
@@ -363,6 +362,9 @@ margin-left: 140px;
 }
 
 .footer__column-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -378,6 +380,9 @@ margin-left: 140px;
 }
 
 .footer__column-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
