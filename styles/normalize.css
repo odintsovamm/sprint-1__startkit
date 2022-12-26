@@ -22,9 +22,8 @@
 
 body {
   margin: 0;
-  padding: 0;
-  box-sizing: content-box;
 }
+
 /**
  * Render the `main` element consistently in IE.
  */
@@ -76,7 +75,6 @@ pre {
 
 a {
   background-color: transparent;
-  text-decoration: none;
 }
 
 /**
