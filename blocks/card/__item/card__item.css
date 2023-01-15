@@ -2,3 +2,7 @@
 	margin-right: 100px;
 	width: 240px;
 }
+
+.card__item:nth-child(3) {
+	margin-right: 0;
+}
